@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1e90ff, #00bfff);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 12px 24px;
+    border: none;
+    background: white;
+    color: #1e90ff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about, .game {
+    padding: 40px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.game input, .game select {
+    margin: 10px;
+    padding: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
